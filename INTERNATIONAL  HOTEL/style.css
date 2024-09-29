@@ -1,0 +1,316 @@
+body {
+    background-color: rgb(219, 219, 219, 0.3) !important;
+}
+
+
+/* NAVBAR */
+#header {
+    position: sticky;
+    top: -0.5rem;
+    left: 0;
+    box-shadow: 0 0 1rem rgb(16, 16, 16, 0.7);
+    z-index: 100;
+
+    backdrop-filter: blur(5rem);
+}
+
+.navbar-collapse {
+    position: absolute;
+    right: 12rem;
+    padding-right: 2rem;
+}
+
+.nav-link {
+    font-size: 130% !important;
+    font-weight: 100 !important;
+}
+
+.nav-link:hover {
+    color: black !important;
+    font-weight: 700 !important;
+}
+
+.book-now-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 0 2rem;
+    background-color: rgb(52, 136, 220);
+    border: none;
+    font-size: 160%;
+    font-weight: 100;
+    color: white;
+}
+
+.book-now-btn:hover {
+    background-color: rgb(18, 83, 149);
+}
+/* / NAVBAR */
+
+
+
+
+/* MAIN */
+.carousel-item {
+    height: 30rem;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+#carouselExampleInterval {
+    border-radius: 1rem;
+}
+/*  / MAIN */
+
+
+
+
+/* SERVICES */
+#services {
+    background-image: url(./images/services-background.jpg);
+    background-size: 100% 100%;
+}
+
+.services-title {
+    color: rgb(52, 136, 220) !important;
+}
+
+#services .row .col-12 {
+    padding: 3rem;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+#services .row .col-12:hover {
+    backdrop-filter: blur(0.5rem);
+    color: dodgerblue;
+    transition: 0.4s;
+}
+
+#services .row .col-12 span {
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.temporary-closed {
+    display: none;
+}
+
+.more-services-btn {
+    border: none;
+    padding: 1rem;
+    background-color: #c9c9c9;
+    border-radius: 0.6rem;
+
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.5;
+    letter-spacing: 0.1rem;
+}
+
+.more-services-btn:hover {
+    background-color: #b7b7b7;
+}
+/* / SERVICES */
+
+
+
+
+/* STANDARD ROOMS */
+#standard-rooms .card-box .card {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    margin: 1rem;
+}
+
+#standard-rooms h2 {
+    color: rgb(52, 136, 220);
+}
+
+.average-rate-star {
+    display: inline;
+    font-weight: 600;
+}
+
+.golden-star {
+    color: gold;
+}
+
+.gray-star {
+    color: gray;
+}
+/* / STANDARD ROOMS */
+
+
+
+
+/* LUXURIOUS ROOMS */
+#luxurious-rooms .card-box .card {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    margin: 1rem;
+}
+
+#luxurious-rooms h2 {
+    color: rgb(52, 136, 220);
+}
+/* / LUXURIOUS ROOMS */
+
+
+
+
+/* REVIEWS */
+#reviews .row .user-feedback {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 4rem;
+    margin: 3rem;
+    background-color: rgb(52, 136, 220);
+}
+
+#reviews h2 {
+    color: rgb(52, 136, 220);
+}
+
+#reviews .row .user-feedback .feedback-date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 1.6rem;
+    font-size: 1rem;
+    color: rgb(52, 136, 220);
+    background-color: #ffffff;
+}
+
+#reviews .row .user-feedback h1 {
+    font-weight: 200;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+#reviews .row .user-feedback p {
+    color: #ffffff;
+}
+/* / REVIEWS */
+
+
+
+
+/* CONTACTS */
+
+#contacts h2 {
+    color: rgb(52, 136, 220);
+}
+
+iframe {
+    margin-top: 2rem;
+    box-shadow: 0 0 1rem rgb(26, 25, 25);
+}
+/* / CONTACTS */
+
+
+
+
+/* FOOTER */
+#footer {
+    background-color: white;
+    box-shadow: 0 0 1rem rgb(16, 16, 16, 0.7);
+}
+
+#footer-menubar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#footer-menubar ul {
+    list-style: none;
+    line-height: 1.6;
+}
+
+#footer-menubar ul li:first-child {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: rgb(52, 136, 220);
+}
+
+#footer-menubar ul li a {
+    color: gray;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: 700;
+}
+
+#footer-menubar ul li a:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+
+
+.footer-social-media-box a {
+    text-decoration: none;
+}
+
+.footer-social-media-box a i {
+    font-size: 1.6rem;
+    text-decoration: none;
+    transition: 0.7s;
+    padding: 0.5rem;
+}
+
+.footer-social-media-box a i:hover {
+    transform: rotateY(180deg);
+}
+
+.telegram {
+    color: #00b1f1;
+}
+
+.instagram {
+    color: #E4405F;
+}
+
+.facebook {
+    color: #1877F2;
+}
+
+.youtube {
+    color: #FF0000;
+}
+
+
+
+
+
+
+#my-footer-section ul li:first-child {
+    font-size: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #444;
+    margin-bottom: 16px;
+}
+
+
+
+
+.footer-copyright {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #333;
+    width: 100% !important;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+}
+/* / FOOTER */
